@@ -51,11 +51,12 @@ export default class Produto {
     }
     
     
-    public get value() : Categoria {
-        return this.categoria
-    }
-    
+    public get getCategoria() : Categoria {
+    return this.categoria;
+}
+
     public set setCategoria(v : Categoria) {
-        this.categoria = v;
-    }
+    this.categoria = v;
+}
+
 }
