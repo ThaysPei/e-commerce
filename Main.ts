@@ -3,6 +3,7 @@ import Produto, { Categoria } from './src/models/Produto';
 import ControllerProduto from './src/controllers/ControllerProduto';
 
 const UI = () => {
+    console.clear()
     console.log("*****************************************************");
     console.log("                                                     ");
     console.log("                 E-COMMERCE CLICK BOX                ");
@@ -18,7 +19,6 @@ const UI = () => {
     console.log("                                                     ");
     console.log("*****************************************************");
     console.log("                                                     ");
- 
 };
 
 export function main() {
