@@ -25,7 +25,6 @@ export function main() {
     const p1 = new Produto("1", "batata", 356, Categoria.Proteina);
     const controllerProduto = new ControllerProduto();
     
-
     while (true) {
         UI();
         const opc = Number(readlinesync.question("Escolha uma opcao: "));
@@ -85,7 +84,3 @@ export function main() {
 }
 
 main();
-
-
-
-

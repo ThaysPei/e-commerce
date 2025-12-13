@@ -30,33 +30,27 @@ export default class Produto {
         this.id = id
     }
     
-    
     public get getNome() : string {
         return this.nome
     }
     
-    
     public set setNome(v : string) {
         this.nome = v;
     }
-
     
     public get getQtdProduto() : number {
         return this.qtdProduto
     }
 
-    
     public set setQtdProduto(quantidadeDoProduto : number) {
         this.qtdProduto = quantidadeDoProduto;
     }
     
-    
     public get getCategoria() : Categoria {
-    return this.categoria;
-}
+        return this.categoria;
+    }
 
     public set setCategoria(v : Categoria) {
-    this.categoria = v;
-}
-
+        this.categoria = v;
+    }
 }

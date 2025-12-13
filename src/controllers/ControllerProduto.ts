@@ -10,12 +10,6 @@ export default class ControllerProduto {
         );
     }
 
-    
-
-
-
-    // metodos específicos
-
     public procurarPorCategoria(categoria: Categoria) {
         const filtrados = this.produtos.filter(p => p.getCategoria === categoria);
 
