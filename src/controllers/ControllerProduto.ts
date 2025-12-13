@@ -1,7 +1,7 @@
 import Produto, { Categoria } from "../models/Produto";
 
 export default class ControllerProduto {
-    private produtos: Array<Produto> = []
+    private readonly produtos: Array<Produto> = []
 
     constructor(){
         this.produtos.push(
